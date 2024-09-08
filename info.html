@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herb Information</title>
+    <link rel="stylesheet" href="info.css">
+   <script src="info.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a class="brand-logo">Virtual Herbal Garden</a>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Herbs Information</h1>
+    </header>
+    <div class="container">
+        <div class="herb-card" onclick="toggleDetails('mint-details')">
+            <img src="mint.jpeg" alt="Mint">
+            <h3>Mint</h3>
+            <p>Click for More </p>
+            <div id="mint-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Mentha</p>
+                <p><strong>Family:</strong> Lamiaceae</p>
+                <p><strong>Description:</strong> Perennial plant with fragrant, toothed leaves and a fresh, cool flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to Europe, Asia, and Africa; grows in moist, shady areas.</p>
+                <p><strong>Medical Uses:</strong> Aids digestion, soothes headaches, and relieves cold symptoms.</p>
+                <p><strong>Culinary Uses:</strong> Used in teas, salads, desserts, and as a garnish.</p>
+                <p><strong>Cultural Significance:</strong> Symbol of hospitality and wisdom in various cultures.</p>
+                <p><strong>Growing Conditions:</strong> Prefers moist, well-drained soil and partial shade.</p>
+                <p><strong>Active Compounds:</strong> Menthol, rosmarinic acid.</p>
+                <p><strong>Preservation:</strong> Can be dried or frozen for later use.</p>
+            </div>
+        </div>
+        <div class="herb-card" onclick="toggleDetails('basil-details')">
+            <img src="basil.jpeg" alt="Basil">
+            <h3>Basil</h3>
+            <p>Click to see more details...</p>
+            <div id="basil-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Ocimum basilicum</p>
+                <p><strong>Family:</strong> Lamiaceae</p>
+                <p><strong>Description:</strong> Annual plant with glossy leaves, commonly green, used for its aromatic flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to tropical regions of central Africa and Southeast Asia.</p>
+                <p><strong>Medical Uses:</strong> Reduces inflammation, supports cardiovascular health.</p>
+                <p><strong>Culinary Uses:</strong> Essential in Italian and Southeast Asian cuisines, used in sauces, salads, and as a garnish.</p>
+                <p><strong>Cultural Significance:</strong> Considered sacred in Hindu culture, symbolizing protection and love.</p>
+                <p><strong>Growing Conditions:</strong> Prefers warm, sunny environments with well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Eugenol, linalool.</p>
+                <p><strong>Preservation:</strong> Can be dried, frozen, or preserved in oil.</p>
+            </div>
+        </div>
+        <div class="herb-card" onclick="toggleDetails('thyme-details')">
+            <img src="Thyme.webp" alt="Thyme">
+            <h3>Thyme</h3>
+            <p>Click to see more details...</p>
+            <div id="thyme-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Thymus vulgaris</p>
+                <p><strong>Family:</strong> Lamiaceae</p>
+                <p><strong>Description:</strong> Low-growing herb with small, aromatic leaves and a strong flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean; grows in rocky, well-drained soil.</p>
+                <p><strong>Medical Uses:</strong> Treats coughs, colds, and digestive issues.</p>
+                <p><strong>Culinary Uses:</strong> Used in soups, stews, and as a seasoning for meats.</p>
+                <p><strong>Cultural Significance:</strong> Symbolizes courage and strength.</p>
+                <p><strong>Growing Conditions:</strong> Prefers well-drained soil and full sun.</p>
+                <p><strong>Active Compounds:</strong> Thymol, carvacrol.</p>
+                <p><strong>Preservation:</strong> Can be dried or frozen for use in cooking.</p>
+            </div>
+        </div>
+        <div class="herb-card" onclick="toggleDetails('rosemary-details')">
+            <img src="rosemary.webp" alt="Rosemary">
+            <h3>Rosemary</h3>
+            <p>Click to see more details...</p>
+            <div id="rosemary-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Rosmarinus officinalis</p>
+                <p><strong>Family:</strong> Lamiaceae</p>
+                <p><strong>Description:</strong> Evergreen shrub with needle-like leaves and a woody aroma.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean region; grows in dry, sandy soils.</p>
+                <p><strong>Medical Uses:</strong> Improves memory, relieves muscle pain, and enhances circulation.</p>
+                <p><strong>Culinary Uses:</strong> Used to season meats, potatoes, and in Mediterranean dishes.</p>
+                <p><strong>Cultural Significance:</strong> Symbolizes remembrance and fidelity.</p>
+                <p><strong>Growing Conditions:</strong> Thrives in well-drained, sandy soil and full sun.</p>
+                <p><strong>Active Compounds:</strong> Cineole, camphor.</p>
+                <p><strong>Preservation:</strong> Can be dried and used in cooking or as a tea.</p>
+            </div>
+        </div>
+        <div class="herb-card" onclick="toggleDetails('sage-details')">
+            <img src="sage.jpeg" alt="Sage">
+            <h3>Sage</h3>
+            <p>Click to see more details...</p>
+            <div id="sage-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Salvia officinalis</p>
+                <p><strong>Family:</strong> Lamiaceae</p>
+                <p><strong>Description:</strong> Perennial herb with gray-green leaves and a strong, earthy flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean region; prefers dry, well-drained soil.</p>
+                <p><strong>Medical Uses:</strong> Improves digestion, reduces inflammation, and enhances memory.</p>
+                <p><strong>Culinary Uses:</strong> Commonly used in stuffing, sausages, and savory dishes.</p>
+                <p><strong>Cultural Significance:</strong> Associated with wisdom and protection.</p>
+                <p><strong>Growing Conditions:</strong> Thrives in full sun and well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Thujone, rosmarinic acid.</p>
+                <p><strong>Preservation:</strong> Can be dried and stored for cooking.</p>
+            </div>
+        </div>
+        <div class="herb-card" onclick="toggleDetails('lavender-details')">
+            <img src="lavander.jpeg" alt="Lavender">
+            <h3>Lavender</h3>
+            <p>Click to see more details...</p>
+            <div id="lavender-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Lavandula angustifolia</p>
+                <p><strong>Family:</strong> Lamiaceae</p>
+                <p><strong>Description:</strong> Woody, aromatic plant with purple flowers and a sweet, floral fragrance.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean; grows in well-drained, sandy soils.</p>
+                <p><strong>Medical Uses:</strong> Alleviates anxiety, improves sleep, and soothes skin irritations.</p>
+                <p><strong>Culinary Uses:</strong> Used in desserts, teas, and as a flavoring in dishes.</p>
+                <p><strong>Cultural Significance:</strong> Symbolizes purity and calmness.</p>
+                <p><strong>Growing Conditions:</strong> Prefers full sun and well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Linalool, linalyl acetate.</p>
+                <p><strong>Preservation:</strong> Can be dried and used in sachets or for culinary purposes.</p>
+            </div>
+        </div>
+        <div class="herb-card" onclick="toggleDetails('oregano-details')">
+            <img src="oregano.jpeg" alt="Oregano">
+            <h3>Oregano</h3>
+            <p>Click to see more details...</p>
+            <div id="oregano-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Origanum vulgare</p>
+                <p><strong>Family:</strong> Lamiaceae</p>
+                <p><strong>Description:</strong> Perennial herb with green leaves and a strong, peppery flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to Europe, particularly the Mediterranean; thrives in well-drained soil.</p>
+                <p><strong>Medical Uses:</strong> Antibacterial, antioxidant, and anti-inflammatory properties.</p>
+                <p><strong>Culinary Uses:</strong> Used in Italian and Greek cuisines, especially in sauces and pizzas.</p>
+                <p><strong>Cultural Significance:</strong> Often used in traditional medicine and as a symbol of joy and happiness.</p>
+                <p><strong>Growing Conditions:</strong> Prefers full sun and well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Carvacrol, thymol.</p>
+                <p><strong>Preservation:</strong> Can be dried or frozen for later use.</p>
+            </div>
+        </div>
+        <div class="herb-card" onclick="toggleDetails('dill-details')">
+            <img src="dill.jpeg" alt="Dill">
+            <h3>Dill</h3>
+            <p>Click to see more details...</p>
+            <div id="dill-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Anethum graveolens</p>
+                <p><strong>Family:</strong> Apiaceae</p>
+                <p><strong>Description:</strong> Annual herb with feathery leaves and a distinctive, tangy flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean region; grows in well-drained, sunny areas.</p>
+                <p><strong>Medical Uses:</strong> Aids digestion, relieves colic, and reduces bloating.</p>
+                <p><strong>Culinary Uses:</strong> Used in pickling, salads, and as a seasoning for fish and potatoes.</p>
+                <p><strong>Cultural Significance:</strong> Used in traditional remedies and culinary practices.</p>
+                <p><strong>Growing Conditions:</strong> Prefers sunny locations and well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Carvone, limonene.</p>
+                <p><strong>Preservation:</strong> Can be dried or frozen for use in cooking.</p>
+            </div>
+        </div>
+        <div class="herb-card" onclick="toggleDetails('cilantro-details')">
+            <img src="cliantro.jpeg" alt="Cilantro">
+            <h3>Cilantro</h3>
+            <p>Click to see more details...</p>
+            <div id="cilantro-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Coriandrum sativum</p>
+                <p><strong>Family:</strong> Apiaceae</p>
+                <p><strong>Description:</strong> Annual herb with delicate, lacy leaves and a fresh, citrusy flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean region; grows in well-drained soil and sunny conditions.</p>
+                <p><strong>Medical Uses:</strong> Helps with digestion, detoxification, and antioxidant effects.</p>
+                <p><strong>Culinary Uses:</strong> Common in Latin American, Asian, and Middle Eastern cuisines; used in salsas, curries, and as a garnish.</p>
+                <p><strong>Cultural Significance:</strong> Widely used in traditional dishes around the world.</p>
+                <p><strong>Growing Conditions:</strong> Prefers full sun and well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Linalool, geraniol.</p>
+                <p><strong>Preservation:</strong> Can be frozen or dried for later use.</p>
+            </div>
+        </div>
+         <div class="herb-card" onclick="toggleDetails('Turmeric-details')">
+            <img src="Turmeric.webp" alt="Turmeric">
+            <h3>Turmeric</h3>
+            <p>Click to see more details...</p>
+            <div id="Turmeric-details" class="herb-details">
+                <p><strong>Scientific Name:</strong>Curcuma longa</p>
+                <p><strong>Family:</strong>Zingiberaceae</p>
+                <p><strong>Description:</strong>A flowering plant with bright yellow rhizomes (roots) that are used as a spice. It has large, green leaves and produces pale yellow flowers.</p>
+                <p><strong>Origin and Habitat:</strong> Native to South Asia, particularly India and Indonesia. </p>
+                <p><strong>Medical Uses:</strong> Known for its anti-inflammatory, antioxidant, and potential anticancer properties. Used to treat digestive issues and support joint health.</p>
+                <p><strong>Culinary Uses:</strong> Widely used as a spice in curries, stews, and sauces for its warm, earthy flavor and vibrant color.</p>
+                <p><strong>Cultural Significance:</strong> Important in Indian and Southeast Asian cultures, used in cooking, religious ceremonies, and traditional medicine.</p>
+                <p><strong>Growing Conditions:</strong> Prefers well-drained, fertile soil, warm temperatures, and high humidity. Requires a long growing season.</p>
+                <p><strong>Active Compounds:</strong> : Contains curcumin, which provides its distinctive color and has potent anti-inflammatory and antioxidant effects</p>
+                <p><strong>Preservation:</strong> Turmeric rhizomes can be dried and ground into powder. Store in an airtight container in a cool, dark place to retain freshness.</p>
+            </div>
+         </div>
+        <div class="herb-card" onclick="toggleDetails('cutch-details')">
+            <img src="cutch tree.jpeg" alt="Cutch Tree">
+            <h3>Cutch Tree</h3>
+            <p>Click to see more details...</p>
+            <div id="cutch-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Coriandrum sativum</p>
+                <p><strong>Family:</strong> Apiaceae</p>
+                <p><strong>Description:</strong> Annual herb with delicate, lacy leaves and a fresh, citrusy flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean region; grows in well-drained soil and sunny conditions.</p>
+                <p><strong>Medical Uses:</strong> Helps with digestion, detoxification, and antioxidant effects.</p>
+                <p><strong>Culinary Uses:</strong> Common in Latin American, Asian, and Middle Eastern cuisines; used in salsas, curries, and as a garnish.</p>
+                <p><strong>Cultural Significance:</strong> Widely used in traditional dishes around the world.</p>
+                <p><strong>Growing Conditions:</strong> Prefers full sun and well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Linalool, geraniol.</p>
+                <p><strong>Preservation:</strong> Can be frozen or dried for later use.</p>
+            </div>
+        </div>
+        <div class="herb-card" onclick="toggleDetails('aloe vera-details')">
+            <img src="alovera.jpeg" alt="Aloe Vera">
+            <h3>Aloe Vera</h3>
+            <p>Click to see more details...</p>
+            <div id="aloe vera-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Coriandrum sativum</p>
+                <p><strong>Family:</strong> Apiaceae</p>
+                <p><strong>Description:</strong> Annual herb with delicate, lacy leaves and a fresh, citrusy flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean region; grows in well-drained soil and sunny conditions.</p>
+                <p><strong>Medical Uses:</strong> Helps with digestion, detoxification, and antioxidant effects.</p>
+                <p><strong>Culinary Uses:</strong> Common in Latin American, Asian, and Middle Eastern cuisines; used in salsas, curries, and as a garnish.</p>
+                <p><strong>Cultural Significance:</strong> Widely used in traditional dishes around the world.</p>
+                <p><strong>Growing Conditions:</strong> Prefers full sun and well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Linalool, geraniol.</p>
+                <p><strong>Preservation:</strong> Can be frozen or dried for later use.</p>
+            </div>
+        </div>
+         <div class="herb-card" onclick="toggleDetails('Ginger-details')">
+            <img src="ginger.jpeg" alt="Ginger">
+            <h3>Ginger</h3>
+            <p>Click to see more details...</p>
+            <div id="Ginger-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Coriandrum sativum</p>
+                <p><strong>Family:</strong> Apiaceae</p>
+                <p><strong>Description:</strong> Annual herb with delicate, lacy leaves and a fresh, citrusy flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean region; grows in well-drained soil and sunny conditions.</p>
+                <p><strong>Medical Uses:</strong> Helps with digestion, detoxification, and antioxidant effects.</p>
+                <p><strong>Culinary Uses:</strong> Common in Latin American, Asian, and Middle Eastern cuisines; used in salsas, curries, and as a garnish.</p>
+                <p><strong>Cultural Significance:</strong> Widely used in traditional dishes around the world.</p>
+                <p><strong>Growing Conditions:</strong> Prefers full sun and well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Linalool, geraniol.</p>
+                <p><strong>Preservation:</strong> Can be frozen or dried for later use.</p>
+            </div>
+        </div>
+         <div class="herb-card" onclick="toggleDetails('Leadwort-details')">
+            <img src="leadwort.jpeg" alt="Leadwort">
+            <h3>Leadwort</h3>
+            <p>Click to see more details...</p>
+            <div id="leadwort-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Coriandrum sativum</p>
+                <p><strong>Family:</strong> Apiaceae</p>
+                <p><strong>Description:</strong> Annual herb with delicate, lacy leaves and a fresh, citrusy flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean region; grows in well-drained soil and sunny conditions.</p>
+                <p><strong>Medical Uses:</strong> Helps with digestion, detoxification, and antioxidant effects.</p>
+                <p><strong>Culinary Uses:</strong> Common in Latin American, Asian, and Middle Eastern cuisines; used in salsas, curries, and as a garnish.</p>
+                <p><strong>Cultural Significance:</strong> Widely used in traditional dishes around the world.</p>
+                <p><strong>Growing Conditions:</strong> Prefers full sun and well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Linalool, geraniol.</p>
+                <p><strong>Preservation:</strong> Can be frozen or dried for later use.</p>
+            </div>
+        </div>
+         <div class="herb-card" onclick="toggleDetails('monkshood-details')">
+            <img src="monkshood.jpg" alt="Monkshood">
+            <h3>Monkshood</h3>
+            <p>Click to see more details...</p>
+            <div id="monkshood-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Coriandrum sativum</p>
+                <p><strong>Family:</strong> Apiaceae</p>
+                <p><strong>Description:</strong> Annual herb with delicate, lacy leaves and a fresh, citrusy flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean region; grows in well-drained soil and sunny conditions.</p>
+                <p><strong>Medical Uses:</strong> Helps with digestion, detoxification, and antioxidant effects.</p>
+                <p><strong>Culinary Uses:</strong> Common in Latin American, Asian, and Middle Eastern cuisines; used in salsas, curries, and as a garnish.</p>
+                <p><strong>Cultural Significance:</strong> Widely used in traditional dishes around the world.</p>
+                <p><strong>Growing Conditions:</strong> Prefers full sun and well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Linalool, geraniol.</p>
+                <p><strong>Preservation:</strong> Can be frozen or dried for later use.</p>
+            </div>
+        </div>
+         <div class="herb-card" onclick="toggleDetails('Lemongrass-details')">
+            <img src="Lemongrass.jpeg" alt="Lemongrass">
+            <h3>Lemongrass</h3>
+            <p>Click to see more details...</p>
+            <div id="Lemongrass-details" class="herb-details">
+                <p><strong>Scientific Name:</strong> Coriandrum sativum</p>
+                <p><strong>Family:</strong> Apiaceae</p>
+                <p><strong>Description:</strong> Annual herb with delicate, lacy leaves and a fresh, citrusy flavor.</p>
+                <p><strong>Origin and Habitat:</strong> Native to the Mediterranean region; grows in well-drained soil and sunny conditions.</p>
+                <p><strong>Medical Uses:</strong> Helps with digestion, detoxification, and antioxidant effects.</p>
+                <p><strong>Culinary Uses:</strong> Common in Latin American, Asian, and Middle Eastern cuisines; used in salsas, curries, and as a garnish.</p>
+                <p><strong>Cultural Significance:</strong> Widely used in traditional dishes around the world.</p>
+                <p><strong>Growing Conditions:</strong> Prefers full sun and well-drained soil.</p>
+                <p><strong>Active Compounds:</strong> Linalool, geraniol.</p>
+                <p><strong>Preservation:</strong> Can be frozen or dried for later use.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
